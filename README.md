@@ -61,4 +61,9 @@ php artisan serve
 ### 6. Compile CSS/JS using Vite
 
 npm install
+
 npm run dev
+
+### 7. To Run Tests
+php artisan test --filter=TaskTest
+
