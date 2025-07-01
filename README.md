@@ -37,7 +37,8 @@
 
 ### 1. Clone the repo
 
-git clone https://github.com/YOUR_USERNAME/to-do-list.git
+git clone [https://github.com/YOUR_USERNAME/to-do-list.git](https://github.com/shubhamfernandes/to-do-list)
+
 cd to-do-list
 
 ### 2. Install dependencies
