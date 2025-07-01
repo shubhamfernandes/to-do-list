@@ -72,19 +72,19 @@ body {
 }
 
 .navbar-brand-container {
-    padding-left: 4rem; /* Default padding for small screens */
+    padding-left: 3rem; /* Default padding for small screens */
     padding-top: 0.5rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 540px) {
     .navbar-brand-container {
-        padding-left: 8rem; /* Medium screens */
+        padding-left: 6rem; /* Medium screens */
     }
 }
 
 @media (min-width: 738px) {
     .navbar-brand-container {
-        padding-left: 8rem; /* Medium screens */
+        padding-left: 7rem; /* Medium screens */
     }
 }
 
