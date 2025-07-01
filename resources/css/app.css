@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* Container Styles */
+.todo-container {
+    margin: 0 auto 50px auto;
+    padding: 0 20px 30px 20px;
+    border-radius: 10px;
+}
+
+.list-container {
+    width: 100%;
+    margin: 60px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* Task Table */
+.table-light {
+    --bs-table-bg: #ffffff;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999 !important;
+}
+
+/* Buttons */
+.btn-green {
+    background-color: #59ad5d;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-red {
+     background-color: #ff3a34;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #337ab7;
+    --bs-btn-border-color: #337ab7;
+}
+
+/* Pagination */
+.pagination .page-link {
+    border-radius: 6px;
+    color: #0d6efd;
+    transition: all 0.2s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+
+/* Utility */
+.ps-6 {
+    padding-left: 8rem;
+}
+
+.navbar-brand-container {
+    padding-left: 4rem; /* Default padding for small screens */
+    padding-top: 0.5rem;
+}
+
+@media (min-width: 600px) {
+    .navbar-brand-container {
+        padding-left: 8rem; /* Medium screens */
+    }
+}
+
+@media (min-width: 738px) {
+    .navbar-brand-container {
+        padding-left: 8rem; /* Medium screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-brand-container {
+        padding-left: 10rem; /* Extra large screens */
+    }
+}
